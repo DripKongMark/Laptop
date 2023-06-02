@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+/* Header/logo Title */
+.header {
+    z-index:2;
+    padding: 80px;
+    text-align: center;
+    background: linear-gradient(pink, blue);
+    color: pink;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sidebar {
+    -ms-flex: 30%; /* IE10 */
+    position: relative;
+    width: 250px;
+    height: 100%;
+    top: 0px;
+    margin-top: 0;
+    padding: 15px;
+    background: linear-gradient(blue, pink);
+    top: 0;
+    flex-direction: column;
+}
+
+.ad_block{
+    width: 200px;
+    height: 250px;
+    border-color: black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    margin-left: 10px;
+}
+
+.ad_block-1{
+    width: 200px;
+    height: 250px;
+    border-color: black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.ad_block-2{
+    width: 200px;
+    height: 250px;
+    border-color: black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.ad_block-3{
+    width: 200px;
+    height: 250px;
+    border-color: black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    padding: 130px;
+    max-width: 900;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(blue, pink);
+    color: rgb(164,224,236); /*#FFB174*/
+    /* rgb(180,237,42) */
+    
+}
+
+.text_block{
+    width: 900px;
+    height: 700px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    /* display: flex; */
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.block_border{
+    padding: 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.border{    
+    width: 800px;
+    height: 600px;
+    border-color: rgb(13,195,246);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.photo_block{
+    padding: 50px;
+    padding-left: 70px;
+
+}
+
+.albom_name{
+    color: black;
+    margin-left: -20px;
+}
+
+.lol{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    display: inline-block;
+    color: black;
+    text-indent: 15px;
+}
+
+.bought{
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    background: rgb(13,195,246);
+    border-radius: 10px;
+    display: flex;
+    
+    margin-left: 30px;
+    margin: auto;
+    color: white;
+}
+
+.container{
+    display: inline-block;
+    margin-left: 89px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #7ac9f9;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.onTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background: url(img/top.png);
+    background-size: cover;
+    z-index: 666;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    border-color: rgb(229,159,81);
+    border-radius: 100px;
+    -webkit-transition: all 0.5s ease;;
+    -moz-transition: all 0.5s ease;;
+    -o-transition: all 0.5s ease;;
+    transition: all 0.5s ease;
+}
+
+.onTop.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer {
+    left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+    padding: 10px;
+    text-align: center;
+    background: #201f1f;
+    color: rgb(164,224,236);
+    /* rgb(255,213,11) */
+    border-radius: 10px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 695px){
+.row{
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
