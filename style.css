@@ -6,6 +6,61 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
+
+/* Style the top navigation bar */
+.navbar {
+    z-index:2;
+    overflow: hidden;
+    background: pink;
+    position: relative;
+    margin-bottom: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+   
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background: white;
+    color: black;
+    -webkit-transition: all 0.5s ease;;
+    -moz-transition: all 0.5s ease;;
+    -o-transition: all 0.5s ease;;
+    transition: all 0.5s ease;
+}
+.navbar a{
+    color: black;
+    /* rgb(180,237,42) */
+    /* rgb(255,213,11) */
+    text-decoration: none;
+}
+
+/* burger-menu*/
+.burger-menu{
+    display: block;
+    flex-direction: row;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+.p a{
+    text-decoration: none;
+    color: rgb(255,213,11);
+}
+
 /* Header/logo Title */
 .header {
     z-index:2;
@@ -47,52 +102,96 @@ body{
     width: 200px;
     height: 250px;
     border-color: black;
-    border-radius: 10px;
+    border-radius: 7px;
     background: white;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
-    margin-top: 400px;
+    flex-direction: column;
+    margin-top: 100px;
     margin-left: 10px;
 }
 
-.ad_block-1{
+.ad_block-1, .ad_block-2, .ad_block-3, .ad_block-4, .ad_block-5, .ad_block-6, .ad_block-7{
     width: 200px;
     height: 250px;
     border-color: black;
-    border-radius: 10px;
+    border-radius: 7px;
     background: white;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-top: 70px;
     margin-left: 10px;
 }
 
-.ad_block-2{
-    width: 200px;
-    height: 250px;
-    border-color: black;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
+.article{
     margin-top: 70px;
-    margin-left: 10px;
+    /* width: 180px;
+    height: 50px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.ad_block-3{
-    width: 200px;
-    height: 250px;
-    border-color: black;
+.more, .more-1, .more-2, .more-3, .more-4, .more-5, .more-6, .more-7{
+    width: 100px;
+    height: 20px;
+    background: yellow;
     border-radius: 10px;
-    background: white;
-    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.article-1{
     margin-top: 70px;
-    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-2{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-3{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-4{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-5{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-6{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-7{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .main {   
@@ -112,7 +211,7 @@ body{
     width: 900px;
     height: 700px;
     background: white;
-    border-radius: 10px;
+    border-radius: 7px;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
     /* display: flex; */
     justify-content: center;
@@ -130,7 +229,7 @@ body{
     width: 800px;
     height: 600px;
     border-color: rgb(13,195,246);
-    border-radius: 10px;
+    border-radius: 7px;
     border-style: solid;
 }
 
@@ -156,6 +255,7 @@ body{
     display: inline-block;
     color: black;
     text-indent: 15px;
+    padding-left: 70px;
 }
 
 .bought{
