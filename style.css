@@ -557,7 +557,7 @@ html {
     }
     .border{
         width: 100%;
-        height: 750px;
+        height: 1050px;
     }
     .lol{
         width: 100%;
@@ -566,12 +566,12 @@ html {
     }
     .text_block{
         width: 100%;
-        height: 900px;
+        height: 1050px;
         flex-direction: column;
     }
     .block_border{
         width: 100%;
-        height: 900px;
+        height: 1050px;
         flex-direction: column;
     }
     .img{
