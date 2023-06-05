@@ -351,7 +351,127 @@ html {
 }
 }
 
-@media screen and (max-width: 376px){
+
+
+
+@media screen and (max-width: 415px){
+    .navbar{
+        width: 100%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .albom_name{
+        text-align: center;
+    }
+    .border{
+        width: 100%;
+        height: 670px;
+    }
+    .lol{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .text_block{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+    }
+    .block_border{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+    .photo_block{
+        width: 100%;
+        height: 800px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 413px){
+    .navbar{
+        width: 100%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .albom_name{
+        text-align: center;
+    }
+    .border{
+        width: 100%;
+        height: 900px;
+    }
+    .lol{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .text_block{
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+    }
+    .block_border{
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+    .photo_block{
+        width: 100%;
+        height: 1000px;
+        font-size: 20px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 394px){
     .navbar{
         width: 100%;
     }
@@ -371,6 +491,69 @@ html {
         width: 100%;
         padding: 0;
         padding-bottom: 70px;
+    }
+    .albom_name{
+        text-align: center;
+    }
+    .border{
+        width: 100%;
+        height: 740px;
+    }
+    .lol{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .text_block{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+    }
+    .block_border{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+    .photo_block{
+        width: 100%;
+        height: 800px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 391px){
+    .navbar{
+        width: 100%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .albom_name{
+        text-align: center;
     }
     .border{
         width: 100%;
@@ -409,20 +592,118 @@ html {
 
 
 
+@media screen and (max-width: 376px){
+    .navbar{
+        width: 100%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .albom_name{
+        text-align: center;
+    }
+    .border{
+        width: 100%;
+        height: 750px;
+    }
+    .lol{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .text_block{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+    }
+    .block_border{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+    .photo_block{
+        width: 100%;
+        height: 800px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 361px){
+    .navbar{
+        width: 100%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .albom_name{
+        text-align: center;
+    }
+    .border{
+        width: 100%;
+        height: 930px;
+    }
+    .lol{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .text_block{
+        width: 100%;
+        height: 930px;
+        flex-direction: column;
+    }
+    .block_border{
+        width: 100%;
+        height: 930px;
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+    .photo_block{
+        width: 100%;
+        height: 800px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
